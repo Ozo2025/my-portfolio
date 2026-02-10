@@ -188,6 +188,117 @@
             margin: 0.5rem 0;
             font-size: 1rem;
         }
+
+        .project-highlight {
+            background: linear-gradient(135deg, #f5f7fa 0%, #c3cfe2 100%);
+            border-left: 5px solid #667eea;
+            padding: 2rem;
+            border-radius: 8px;
+            margin: 0.5rem 0 2rem 0;
+        }
+
+        .project-highlight h2 {
+            color: #2c3e50;
+            margin-bottom: 1rem;
+            font-size: 1.5rem;
+        }
+
+        .project-highlight h3 {
+            color: #667eea;
+            margin-top: 1.5rem;
+            margin-bottom: 0.8rem;
+            font-size: 1.1rem;
+        }
+
+        .project-highlight ul {
+            list-style: none;
+            padding-left: 0;
+        }
+
+        .project-highlight li {
+            padding: 0.3rem 0;
+            padding-left: 1.5rem;
+            position: relative;
+            color: #555;
+            line-height: 1.5;
+            margin-bottom: 0.2rem;
+        }
+
+        .project-highlight li:before {
+            content: "→";
+            position: absolute;
+            left: 0;
+            color: #667eea;
+            font-weight: bold;
+        }
+
+        .project-highlight p {
+            color: #555;
+            line-height: 1.4;
+            margin-bottom: 0.7rem;
+        }
+
+        .project-two-column {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            margin-top: 1.5rem;
+        }
+
+        .project-two-column h3 {
+            margin-top: 0;
+            margin-bottom: 0.8rem;
+            color: #667eea;
+            font-size: 1.1rem;
+        }
+
+        @media (max-width: 768px) {
+            .project-two-column {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+
+        .revenue-section {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 2rem;
+            align-items: flex-start;
+            margin-bottom: 1.5rem;
+        }
+
+        .revenue-section h3 {
+            margin-top: 0;
+        }
+
+        .revenue-chart {
+            margin: 0;
+            text-align: center;
+        }
+
+        .revenue-chart img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
+
+        @media (max-width: 768px) {
+            .revenue-section {
+                grid-template-columns: 1fr;
+                gap: 1.5rem;
+            }
+        }
+            margin: 1.5rem 0;
+            text-align: center;
+        }
+
+        .project-chart img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 6px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+        }
     </style>
 </head>
 <body>
@@ -218,7 +329,7 @@
             <p style="margin-top: 1rem;">With a strong foundation in statistics, programming, and machine learning, I'm committed to continuous learning and staying at the forefront of data science innovation.</p>
         </div>
     </section>
-    
+
     <!-- Skills Section -->
     <section id="skills">
         <h2>Skills</h2>
@@ -265,6 +376,49 @@
         </div>
     </section>
 
+    <!-- Project Highlight Section -->
+    <section id="project">
+        <div class="project-highlight">
+            <h2>Featured Project: $28M+ B2B E-Commerce Platform</h2>
+            <p style="font-size: 1.1rem; margin-bottom: 1rem;"><strong>Architected and scaled a B2B e-commerce platform generating $28M+ in annual revenue, now a core revenue engine.</strong></p>
+
+            <div class="revenue-section">
+                <div>
+                    <h3>Revenue Data Analysis (2020–2025)</h3>
+                    <ul>
+                        <li>Over <strong>155,000</strong> historical B2B orders.</li>
+                        <li><strong>$134M+</strong> in platform revenue.</li>
+                        <li>Average order value of <strong>$866</strong>, consistent with enterprise B2B purchasing.</li>
+                        <li>Sustained year-over-year revenue and order growth.</li>
+                        <li>Clear seasonal revenue patterns useful for forecasting and operational planning.</li>
+                    </ul>
+                </div>
+                <div class="revenue-chart">
+                    <img src="revenue-chart.png" alt="Revenue by Year (2020-2025) in Millions USD">
+                </div>
+            </div>
+
+            <div class="project-two-column">
+                <div>
+                    <h3>Customer & Revenue Analysis (2020–2025)</h3>
+                    <ul>
+                        <li>Top 10 customers: only <strong>21.7%</strong> of revenue — diversified base.</li>
+                        <li>Average order value of <strong>$866</strong>.</li>
+                        <li><strong>1,100+</strong> customers with 20+ repeat orders.</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3>Top Buyers Analysis (2020–2025)</h3>
+                    <ul>
+                        <li>Top buyer generated <strong>$2.59M</strong> across 2,345 orders.</li>
+                        <li>Top 10 buyers each generated between <strong>$900K–$2.6M</strong>.</li>
+                        <li>High repeat-order volume confirms operational B2B usage.</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+    
     <!-- Resume Section -->
     <section id="resume" class="resume">
       <div class="resume-actions" style="margin-bottom:1.5rem; text-align: center;">
