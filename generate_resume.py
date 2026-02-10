@@ -81,7 +81,7 @@ story.append(Spacer(1, 0.15*inch))
 
 # Professional Summary
 story.append(Paragraph("PROFESSIONAL SUMMARY", section_heading))
-summary_text = """Revenue-owning systems builder who now speaks AI fluently. Senior operator and technical leader with 15+ years building and scaling growth engines across renewable energy and logistics &amp; distribution. Architected and managed a B2B e-commerce platform generating <b>$26M+ annually</b>, including ERP integrations, API-connected services, and customer and sales portals. Owns full sales data since platform launch and applies analytics, statistical modeling, and machine learning to optimize decisions and scale revenue impact."""
+summary_text = """Revenue-owning systems builder who now speaks AI fluently. Senior operator and technical leader with 15+ years building and scaling growth engines across renewable energy and logistics &amp; distribution. Architected and managed a B2B e-commerce platform generating <b>$28M+ annually</b>, including ERP integrations, API-connected services, and customer and sales portals. Owns full sales data since platform launch and applies analytics, statistical modeling, and machine learning to optimize decisions and scale revenue impact."""
 story.append(Paragraph(summary_text, body_style))
 story.append(Spacer(1, 0.08*inch))
 
@@ -104,7 +104,7 @@ jobs = [
         "dates": "Oct 2016 – Present • Landover, MD",
         "bullets": [
             "Hired to lead all marketing and digital initiatives for a 110-year-old logistics and distribution company.",
-            "<b>Architected and scaled a B2B e-commerce platform generating $26M+ in annual revenue</b>, now a core revenue engine.",
+            "<b>Architected and scaled a B2B e-commerce platform generating $28M+ in annual revenue</b>, now a core revenue engine.",
             "Built and operated a <b>12,000+ SKU</b> online catalog supporting complex B2B pricing and account structures.",
             "Led <b>end-to-end integration with P21 ERP</b>, enabling real-time inventory, pricing, customer, and order data synchronization.",
             "Designed and managed <b>API-connected systems</b>, customer portals, and sales-rep portals used daily by internal teams.",
