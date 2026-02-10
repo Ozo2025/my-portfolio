@@ -1,0 +1,24 @@
+Brad Oswald
+Revenue-Owning Systems Builder | AI & Machine Learning | B2B Platforms ($26M+)
+
+Annapolis, MD | LinkedIn: linkedin.com/in/bradoswald
+
+Professional Summary
+Senior systems and business leader with 15+ years of experience scaling technology-driven organizations across biotech, renewable energy, and logistics & distribution. Architected and operated a $26M+ B2B e-commerce platform, integrating ERP systems, APIs, and sales portals, and now applying AI and advanced analytics to drive automation and smarter decision-making.
+
+Core Skills
+Programming: Python, R, SQL, JavaScript
+Machine Learning: Supervised & Unsupervised Learning, Deep Learning, NLP
+Data Tools: Pandas, NumPy, Scikit-learn, TensorFlow, PyTorch
+Analytics & Visualization: Data Analysis, Statistical Modeling, Business Intelligence
+Systems: ERP Integrations, APIs, B2B E-commerce Platforms, Sales Portals
+
+Professional Experience
+Senior Manager / Director – E-commerce & Systems
+Logistics & Distribution Company | Last 7 Years
+
+- Developed and managed a B2B e-commerce platform generating $26M+ annually.
+- Designed and implemented ERP integrations enabling real-time inventory, pricing, and order management.
+- Built and maintained API-driven connections across internal and third-party systems.
+- Created customer and sales-rep portals supporting account access and performance visibility.
+- Used analytics and data insights to guide pricing, sales strategy, and operational decisions.
