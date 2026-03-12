@@ -1,0 +1,13 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+
+# Local analytics data (private)
+analytics/data/raw/
+analytics/data/processed/
+
+# Optional: local analysis artifacts
+analytics/outputs/*.csv
+analytics/outputs/*.xlsx
+analytics/outputs/*.parquet
